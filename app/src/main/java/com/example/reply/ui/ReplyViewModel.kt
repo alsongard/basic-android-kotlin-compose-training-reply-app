@@ -24,7 +24,6 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
 
 class ReplyViewModel : ViewModel() {
-
     private val _uiState = MutableStateFlow(ReplyUiState())
     val uiState: StateFlow<ReplyUiState> = _uiState
 
